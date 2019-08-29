@@ -1,12 +1,25 @@
 .App {
   text-align: center;
 }
-button{
-
+.square > button{
+  position:relative;
+}
+div p {
+  font-size:13px;
+}
+button+p{
+  border: 3px purple solid;
+}
+.fixed{
+  position:fixed;
+}
+#absolute{
+  position:absolute;
+  color:white;
 }
 .square{
   border: 1px blue solid;
-  margin: 30% 20% 20% 20%;
+  margin: 30% 20% 800px 20%;
   padding:5%;
   background-image: url('https://3c1703fe8d.site.internapcdn.net/newman/csz/news/800/2018/universe.jpg')
 }
