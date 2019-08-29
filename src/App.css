@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+button{
+
+}
+.square{
+  border: 1px blue solid;
+  margin: 30% 20% 20% 20%;
+  padding:5%;
+  background-image: url('https://3c1703fe8d.site.internapcdn.net/newman/csz/news/800/2018/universe.jpg')
+}
+.floating{
+  float:right;
+  display:inline-block;
+  color: red;
+  font-weight: bold;
+  font-size:18px;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  body{
+    background-color:lightblue;
+  }
+} 
