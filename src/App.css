@@ -2,15 +2,20 @@
   text-align: center;
 }
 .square > button{
+  /* 25C-1 */
   position:relative;
+  background-image: linear-gradient(to right, purple,	#40E0D0)
 }
 div p {
   font-size:13px;
 }
+/* 22C-5 */
 button+p{
+  /* 24D */
   border: 3px purple solid;
 }
 .fixed{
+  /* 25C-3 */
   position:fixed;
 }
 #absolute{
@@ -18,17 +23,30 @@ button+p{
   color:white;
 }
 .square{
+  display:flex;
+  justify-content: space-around;
+  align-items: column;
+  flex-wrap: nowrap;
+  flex-direction: row;
+
   border: 1px blue solid;
   margin: 30% 20% 800px 20%;
+  /* 24E 24C */
   padding:5%;
-  background-image: url('https://3c1703fe8d.site.internapcdn.net/newman/csz/news/800/2018/universe.jpg')
+  /* 23F */
+  background-image: url('https://3c1703fe8d.site.internapcdn.net/newman/csz/news/800/2018/universe.jpg');
+  box-shadow: 5px 5px 8px 5px;
 }
 .floating{
   float:right;
+  /* 25F */
   display:inline-block;
   color: red;
+  /* 23D-1 */
   font-weight: bold;
+  /* 23D-3 */
   font-size:18px;
+  writing-mode: vertical-rl
 }
 
 
@@ -37,6 +55,7 @@ button+p{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   body{
+    /* 23E */
     background-color:lightblue;
   }
 } 
